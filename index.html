@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Nerko+One&family=Recursive:wght@300..1000&display=swap');
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
+    </style>
+     <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/styel.css">
+
+    <title>Yummy</title>
+</head>
+
+<body  class="overflow-hidden">
+    <!-- <div id="particles-js"></div> -->
+    <div class="loding_cont d-none">
+        <span class="loader"></span>
+    </div>
+    <section id="home" class="home">
+        <div class="container_manu">
+            <div class="left_manu">
+                <div class="navber">
+                    <ul>
+                        <li onclick="displaySearch()" id="Search"><a href="#Search">Search</a></li>
+                        <li onclick="getCategories()" id="Categories"><a href="#Categories">Categories</a></li>
+                        <li onclick="getareaData()" id="Area"><a href="#Area">Area</a></li>
+                        <li onclick="getIngredients()" id="Ingredients"><a href="#Ingredients">Ingredients</a></li>
+                        <li onclick="displayContactUs()" id="ContactUs"><a href="#Contact Us">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="icons_brands">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-solid fa-globe"></i>
+                    <div class="footer">
+                        <p>Copyright Â© 2019 All Rights Reserved.</p>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="all_icons">
+                <div class="logo_img">
+                    <img src="images/logo.png" class="w-100" alt="">
+                </div>
+                <div class="icon_x">
+                    <i id="icon_close" class="fa-solid open-close-icon fa-2x fa-x d-none"></i>
+                    <i id="open_w" class="fa-solid fa-bars fa-2x "></i>
+                </div>
+                <div class="icon_2">
+                    <i class="fa-solid fa-globe d-block"></i>
+                    <i class="fa-solid fa-share-nodes"></i>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <section id="search_meals" class="d-none">
+
+        </section>
+
+
+
+
+        <div id="container_dis" class="container mt-3 ">
+            <div id="row" class="row gy-5 ">
+                <div class="col-sm-12 col-md-4 col-lg-3 d-none">
+                    <div onclick="" class="image">
+                        <img src="images/beef.png" class="img_home w-100" alt="">
+                        <div class="conter d-flex justify-content-center align-items-center">
+                            <h2 class="wow backInUp">Welcome</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, dicta.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section class="ContactUs d-none">
+        <div class="container Contact_Us w-75">
+            <div class="row  h-50">
+                <div class="col-sm-12 col-md-6 ">
+                    <label for="exampleFormControlInput1" class="form-label"></label>
+                    <input onkeyup="" type="text" class="form-control" id="exampleFormControlInput1"
+                        placeholder="Enter Your Name">
+                </div>
+                <div class="col-sm-12 col-md-6 ">
+                    <label for="exampleFormControlInput1" class="form-label"></label>
+                    <input type="number" class="form-control" id="exampleFormControlInput1"
+                        placeholder="Enter Your phone">
+                </div>
+                <div class="col-sm-12 col-md-6">
+                    <label for="exampleFormControlInput1" class="form-label"></label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1"
+                        placeholder="Enter Your mEail">
+                </div>
+                <div class="col-sm-12 col-md-6">
+                    <label for="exampleFormControlInput1" class="form-label"></label>
+                    <input type="number" class="form-control" id="exampleFormControlInput1"
+                        placeholder="Enter Your age">
+                </div>
+                <div class="col-sm-12 col-md-6">
+                    <label for="exampleFormControlInput1" class="form-label"></label>
+                    <input type="password" class="form-control" id="exampleFormControlInput1"
+                        placeholder="Enter Your password">
+                </div>
+                <div class="col-sm-12 col-md-6">
+                    <label for="exampleFormControlInput1" class="form-label"></label>
+                    <input type="password" class="form-control" id="exampleFormControlInput1"
+                        placeholder="Enter Your Repassword">
+                </div>
+                <div class="col-sm-12 col-md-12 text-center mt-2">
+                    <button type="submit" class="btn btn-outline-danger px-2 mt-3">Submit</button>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+
+
+    <section class="araa mt-5 d-none">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-4 col-lg-3">
+                    <div class="icon text-center">
+                        <i class="fa-solid fa-drumstick-bite fa-4x"></i>
+                    </div>
+                    <h2 class="text-center">Lorem, ipsum</h2>
+                    <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, non.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="ditils" class="ditils d-none">
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-sm-12 col-md-4">
+                    <div class="image_ditils">
+                        <img src="images/g046bb1663960946.jpg" class="w-100" alt="">
+                    </div>
+                    <h2>Burek</h2>
+                </div>
+
+                <div class="col-sm-12 col-md-8">
+                    <div class="cont_text">
+                        <h2>Instructions</h2>
+                        <p>
+                            Fry the finely chopped onions and minced meat in oil. Add the salt and pepper. Grease a
+                            round baking tray and put a layer of pastry in it. Cover with a thin layer of filling and
+                            cover this with another layer of filo pastry which must be well coated in oil. Put another
+                            layer
+                            of filling and cover with pastry. When you have five or six layers, cover with f
+                            ilo pastry, bake at 200ºC/392ºF for half an hour and cut in quarters and serve.
+                        </p>
+                        <span class="d-block">Area : Croatian</span>
+                        <span class="d-block">Category : Side</span>
+                        <span class="d-block">Recipes :</span>
+                    </div>
+                    <ul class="list-unstyled d-flex g-3 flex-wrap">
+                        <li class="alert alert-info m-2 p-1">1 Packet Filo Pastry</li>
+                        <li class="alert alert-info m-2 p-1">1 Packet Filo Pastry</li>
+                        <li class="alert alert-info m-2 p-1">1 Packet Filo Pastry</li>
+                        <li class="alert alert-info m-2 p-1">1 Packet Filo Pastry</li>
+                        <li class="alert alert-info m-2 p-1">1 Packet Filo Pastry</li>
+                        <li class="alert alert-info m-2 p-1">1 Packet Filo Pastry</li>
+                    </ul>
+                    <h3>Tags :</h3>
+                    <ul class="list-unstyled d-flex g-3 flex-wrap">
+                        <li class="alert alert-danger m-2 p-1">Soup</li>
+                    </ul>
+                    <a target="_blank" href="https://findingtimeforcooking.com/main-dishes/red-lentil-soup-corba/"
+                        class="btn btn-success">Source</a>
+                    <a target="_blank" href="https://www.youtube.com/watch?v=VVnZd8A84z4"
+                        class="btn btn-danger">Source</a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section id="section_catogry" class="section_catogry d-none">
+        <div class="container mt-5">
+            <div class="row" id="rowCatogry">
+                <div onclick="" class="col-sm-12 col-md-4 col-lg-3">
+                    <div class="catogry_item position-relative">
+                        <img src="images/beef.png" alt="food-1" class="w-100">
+                        <div class="text_item">
+                            <h3>Beef</h3>
+                            <p>Beef is a type of meat that comes from cattle. It is a popular</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="search_mea" class="">
+        <!-- <div class="container mt-5">
+            <div class="row" id="row_search">
+                <div class="col-sm-12 col-md-6">
+                    <input id="searchByName" onkeyup="searchByName(this.value)" class="form-control bg-transparent text-white" placeholder="Search By Name" type="text">
+                </div>
+                <div class="col-sm-12 col-md-6">
+                    <input class="form-control bg-transparent text-white" placeholder="Search By First Letter" type="text">
+                </div>
+            </div>
+            <div id="Data_search" class="row mt-5">
+                <div class="col-sm-12 col-md-4 col-lg-3">
+                    <div onclick="" class="image">
+                        <img src="images/g046bb1663960946.jpg" class="img_home w-100" alt="">
+                        <div class="conter">
+                            <h2 class="wow backInUp">Welcome</h2>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div> -->
+    </section>
+
+
+
+
+    <script src="javascreipt/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="javascreipt/bootstrap.bundle.min.js"></script>
+    <script src="javascreipt/java.js"></script>
+
+</body>
+
+</html>
